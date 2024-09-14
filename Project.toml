@@ -1,0 +1,13 @@
+name = "MyPkg"
+uuid = "472204e8-3bb8-45c8-a004-a9ccc07b9105"
+authors = ["Jonathan Mädler <j.maedler@gmx.net>"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
